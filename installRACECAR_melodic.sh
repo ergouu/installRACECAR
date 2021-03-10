@@ -4,6 +4,9 @@
 # dirName defaults to racecar-ws
 # Fetches RACECAR ROS components, installs dependencies, and then catkin_make the workspace
 
+#install dependices
+sudo apt-get install rosdep ros-melodic-serial python-wstool
+
 source /opt/ros/melodic/setup.bash
 DEFAULTDIR=~/racecar-ws
 CLDIR="$1"
