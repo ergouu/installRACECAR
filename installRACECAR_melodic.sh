@@ -7,6 +7,9 @@
 #install dependices
 sudo apt-get install rosdep ros-melodic-serial python-wstool
 
+#install rospkg
+sudo pip3 install rospkg
+
 source /opt/ros/melodic/setup.bash
 DEFAULTDIR=~/racecar-ws
 CLDIR="$1"
