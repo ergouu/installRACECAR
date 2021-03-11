@@ -42,3 +42,8 @@ echo "Catkin Make"
 catkin_make config --cmake-args -DCUDA_USE_STATIC_CUDA_RUNTIME=OFF
 catkin_make
 
+# after do this and installed tensorflow
+# insert following command at the endl of ~/.bashrc
+export LD_PRELOAD=/usr/lib/aarch64-linux-gnu/libgomp.so.1
+source /home/ad/workspace/racecar-ws/devel/setup.bash
+
