@@ -5,7 +5,7 @@
 # Fetches RACECAR ROS components, installs dependencies, and then catkin_make the workspace
 
 #install dependices
-sudo apt-get install rosdep ros-melodic-serial python-wstool
+sudo apt-get install rosdep ros-melodic-serial python-wstool -y
 
 #install rospkg
 sudo pip3 install rospkg
